@@ -45,7 +45,7 @@ button{
     margin-left: 250px;
 }
 #resultado{
-    border: 3px solid #7c4f0c;
+    border: 3px solid #0c5c7c;
     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
@@ -53,4 +53,16 @@ button{
     width: 500px;
     margin-left: 400px;
 
+}
+footer{
+    background-color: #0c5c7c;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
 }
