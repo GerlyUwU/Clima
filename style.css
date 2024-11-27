@@ -13,6 +13,44 @@ body {
     text-align: center;
 
 }
-.consulta-clima{
-    
+
+#consulta-clima {
+    border: 3px solid #06dbd1;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#ciudad {
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    border: 1px solid #06dbd1;
+    border-radius: 4px;
+    margin-left: -10px;
+}
+
+button{
+    background-color: #06db70;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+#resultado{
+    border: 3px solid #7c4f0c;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 400px;
+
 }

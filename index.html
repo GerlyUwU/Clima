@@ -11,12 +11,12 @@
             <h1 class="titulo">Consulta del Clima</h1>
         </header>
         <main>
-            <div class="consulta-clima">
+            <div id="consulta-clima">
                 <input type="text" id="ciudad"
                     placeholder="Introduce una ciudad"
                     required>
-                <button onclick="consultarClimaActual()">Clima Actual</button>
-                <button onclick="consultarPronostico()">Pronóstico 5
+                <button id="btnConsultarDia" onclick="consultarClimaActual()">Clima Actual</button>
+                <button id="btnConsultar5Dia" onclick="consultarPronostico()">Pronóstico 5
                     Días</button>
             </div>
             <div id="resultado"></div>
