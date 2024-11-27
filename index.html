@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta del Clima</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Consulta del Clima</h1>
+  
+  <input type="text" id="ciudad" placeholder="Introduce una ciudad" required>
+  <button onclick="consultarClimaActual()">Clima Actual</button>
+  <button onclick="consultarPronostico()">Pronóstico 5 Días</button>
+  
+  <div id="resultado"></div>
+  
+  <!-- Axios CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- Enlace al archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
